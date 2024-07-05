@@ -26,13 +26,13 @@ const productsSchema = new mongoose.Schema({
   category: {
     type: String,
     required: true,
-    minlength: 10,
+    minlength: 3,
     maxlength: 80,
   },
-  created_at: {
-    type: Date,
-    default: Date.now
-  }
+  // created_at: {
+  //   type: Date,
+  //   default: Date.now
+  // }
 })
 
 module.exports = mongoose.model("products", productsSchema);
