@@ -1,6 +1,6 @@
 <h1>node js lessons</h1>
 
-> node tools module
+> node tools module and packages
 
 <table>
   <th>
@@ -48,6 +48,31 @@
       <td>express-validator</td>
       <td>handle vlidation for all data</td>
       <td>https://express-validator.github.io/docs/</td>
+    </tr>
+    <tr>
+      <td>#8</td>
+      <td>dotenv</td>
+      <td>Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. Storing configuration in the environment separate from code is based on The Twelve-Factor App methodology.</td>
+      <td>https://www.npmjs.com/package/dotenv</td>
+    </tr>
+    <tr>
+      <td>#9</td>
+      <td>cors error</td>
+      <td>CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.</td>
+      <td>https://www.npmjs.com/package/cors</td>
+    </tr>
+    <tr>
+      <td>#10</td>
+      <td>cors error</td>
+      <td>CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.</td>
+      <td>https://www.npmjs.com/package/cors</td>
+    </tr>
+    
+    <tr>
+      <td>#11</td>
+      <td>axios-mock-adapter</td>
+      <td>Axios adapter that allows to easily mock requests</td>
+      <td>https://www.npmjs.com/package/axios-mock-adapter</td>
     </tr>
   </tbody>
 </table>
