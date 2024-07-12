@@ -231,12 +231,11 @@ more information the status code in "mdn"
 
 <h2 align="center">database</h2>
 
-  > mongoDB
+  > [mongoDB](https://www.mongodb.com/)
 
-https://www.mongodb.com/
+  > [to use data base deffrrent mongo](https://sequelize.org/)
+<br>
+<h1>back end information and main data</h1> 
 
+[what is password hashing](https://medium.com/@arunchaitanya/salting-and-hashing-passwords-with-bcrypt-js-a-comprehensive-guide-f5e31de3c40c)
 
-  > back end information and main data
-
-what is password hashing 
-https://medium.com/@arunchaitanya/salting-and-hashing-passwords-with-bcrypt-js-a-comprehensive-guide-f5e31de3c40c
