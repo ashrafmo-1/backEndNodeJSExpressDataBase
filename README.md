@@ -73,6 +73,12 @@
       <td>Axios adapter that allows to easily mock requests</td>
       <td>https://www.npmjs.com/package/axios-mock-adapter</td>
     </tr>
+    <tr>
+      <td>#12</td>
+      <td>bcryptjs</td>
+      <td>make password hashing in mongoDB Express</td>
+      <td>https://www.npmjs.com/package/bcryptjs</td>
+    </tr>
   </tbody>
 </table>
 <hr>
