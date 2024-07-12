@@ -259,3 +259,4 @@ more information the status code in "mdn"
 
 [what is password hashing](https://medium.com/@arunchaitanya/salting-and-hashing-passwords-with-bcrypt-js-a-comprehensive-guide-f5e31de3c40c)
 
+<h2>Projects</h2>
