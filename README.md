@@ -193,18 +193,38 @@ more information the status code in "mdn"
     </tr>
     <tr>
       <td>#3</td>
+      <td>200</td>
+      <td>status "ok" all requists and responses is done</td>
+    </tr>
+    <tr>
+      <td>#4</td>
       <td>300 - 399</td>
       <td>Redirection messages</td>
       <td>https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#redirection_messages</td>
     </tr>
     <tr>
-      <td>#4</td>
+      <td>#5</td>
       <td>400 - 499</td>
       <td>Client error responses</td>
       <td>https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#client_error_responses</td>
     </tr>
     <tr>
-      <td>#5</td>
+      <td>#6</td>
+      <td>404</td>
+      <td>error not fount page, link, route, assets, any thing</td>
+    </tr>
+    <tr>
+      <td>#7</td>
+      <td>401</td>
+      <td>often denoted as UNAUTHORIZED</td>
+    </tr>
+    <tr>
+      <td>#8</td>
+      <td>422</td>
+      <td>validation error in data</td>
+    </tr>
+    <tr>
+      <td>#9</td>
       <td>500 - 599</td>
       <td>Server error responses</td>
       <td>https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#server_error_responses</td>
