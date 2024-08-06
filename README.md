@@ -261,4 +261,24 @@ more information the status code in "mdn"
 
 [jsend](https://github.com/omniti-labs/jsend)
 
-<h2>Projects</h2>
+<h1>app file handling</h1>
+make without routes and controller
+
+```javascript
+const express = require("express");
+const dotenv = require("dotenv");
+const mongoose = require("mongoose");
+dotenv.config();
+
+const app = express();
+const port = process.env.port;
+const url = process.env.mongoURL;
+
+mongoose.connect(url).then(() => {
+    console.log("Connect success for DB");
+}).catch(err =>  console.log(err));
+
+app.listen(port, () => {
+    console.log(`start server work in ${port}`);
+});
+```
