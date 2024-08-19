@@ -282,3 +282,23 @@ app.listen(port, () => {
     console.log(`start server work in ${port}`);
 });
 ```
+
+<h1> Contact with mysql </h1>
+
+```javascript
+// config/db.config.js
+const mysql = require('mysql');
+
+const connection = mysql.createPool({
+  host: process.env.DB_HOST, // DB_HOST=localhost
+  user: process.env.DB_USER, // DB_USER=root
+  password: process.env.DB_PASS, // DB_PASS=""
+  database: process.env.DB_NAME // DB_NAME=example
+});
+
+connection.getConnection(() => {
+  console.log('success db');
+})
+
+module.exports = connection;
+```
